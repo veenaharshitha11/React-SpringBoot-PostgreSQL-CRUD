@@ -1,6 +1,8 @@
 import axios from "axios";
 
-const REST_API_BASE_URL = 'http://localhost:8085/api/v1/customers';
+//const REST_API_BASE_URL = 'http://localhost:8085/api/v1/customers';
+
+const REST_API_BASE_URL = 'http://100.24.67.246:8085/api/v1/customers'; //ec2 endpoint ip address
 
 // export const listCustomers = () => {
 //     return axios.get(REST_API_BASE_URL);
